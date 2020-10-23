@@ -1,3 +1,56 @@
-﻿body
-{
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+/****************************************Class********************************/
+
+.page {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 180px 4fr 4fr 4fr 40px;
+    grid-template-areas: 'header header'
+                         'menu middle1'
+                         'menu middle1'
+                         'menu middle2'
+                         'footer footer';
+
+}
+
+div.header {
+    background-color: rgb(255, 28, 28);
+    grid-area: header;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.flaggB {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+div.menu {
+    background-color: aqua;
+    grid-area: menu;
+    padding-left: 7px;
+}
+
+div.middle1 {
+    background-color: rgb(93, 201, 22);
+    grid-area: middle1;
+}
+
+div.middle2 {
+    background-color: brown;
+    grid-area: middle2;
+}
+
+div.footer {
+    background-color: black;
+    grid-area: footer;
+}
+.copyright {
+    color: whitesmoke;
+    text-align: center;
 }
