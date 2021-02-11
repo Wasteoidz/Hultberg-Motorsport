@@ -39,11 +39,13 @@ div.menu {
 div.middle1 {
     background-color: rgb(93, 201, 22);
     grid-area: middle1;
+    padding-left: 7px;
 }
 
 div.middle2 {
     background-color: brown;
     grid-area: middle2;
+    padding-left: 7px;
 }
 
 div.footer {
