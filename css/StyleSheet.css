@@ -2,8 +2,15 @@
     margin: 0;
     padding: 0;
 }
-li.hover {
-    cursor: grab;
+p {
+    font-size: 1.6rem;
+}
+li {
+    font-size: 1.2rem;
+    padding: 3px 0 3px 0;
+}
+li:hover {
+    cursor: pointer;
 }
 /****************************************Class********************************/
 
@@ -11,7 +18,7 @@ li.hover {
     height: 100vh;
     display: grid;
     grid-template-columns: 150px 1fr;
-    grid-template-rows: 180px 4fr 4fr 4fr 50px;
+    grid-template-rows: 2fr 4fr 4fr 4fr 60px;
     grid-template-areas: 'header header'
                          'menu middle1'
                          'menu middle1'
@@ -36,6 +43,7 @@ div.menu {
     background-color: aqua;
     grid-area: menu;
     padding-left: 7px;
+    font-size: 1.2rem;
 }
 
 div.middle1 {
@@ -54,9 +62,11 @@ div.footer {
     background-color: black;
     grid-area: footer;
 }
+
 .copyright {
     color: whitesmoke;
     text-align: center;
+    font-size: 1rem;
 }
 
 .socials {
