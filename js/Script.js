@@ -11,7 +11,7 @@ function linn() {
 }
 
 function gitte() {
-    document.querySelector(".middle1").innerHTML = `<p>Gitte er Crew sjef og holder teamer i ørene, hun sørger for at ting blir gjort som de skal og til riktig tid.<br>
+    document.querySelector(".middle1").innerHTML = `<p>Gitte er Crew sjef og holder teamet i ørene, hun sørger for at ting blir gjort som de skal og til riktig tid.<br>
                                                       Samtidig som hun også passer på at alle har det bra, at ingen går sultne eller kalde.</p>
     `;
 }
